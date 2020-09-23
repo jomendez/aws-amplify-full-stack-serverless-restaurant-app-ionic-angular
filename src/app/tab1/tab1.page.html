@@ -1,0 +1,23 @@
+<ion-header [translucent]="true">
+    <ion-toolbar>
+        <ion-title>
+            List
+        </ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+    <ion-header collapse="condense">
+        <ion-toolbar>
+            <ion-title size="large">List</ion-title>
+        </ion-toolbar>
+    </ion-header>
+
+    <div>
+        <div *ngFor="let restaurant of restaurants">
+            <div>{{ restaurant.name }}</div>
+            <div>{{ restaurant.description }}</div>
+            <div>{{ restaurant.city }}</div>
+        </div>
+    </div>
+</ion-content>

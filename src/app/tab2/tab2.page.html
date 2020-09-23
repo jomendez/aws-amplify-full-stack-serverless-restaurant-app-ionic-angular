@@ -1,0 +1,25 @@
+<ion-header [translucent]="true">
+    <ion-toolbar>
+        <ion-title>
+            Tab 2
+        </ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+    <form [formGroup]="createForm" #createFormRef (ngSubmit)="onCreate(createFormRef)">
+        <label>
+      Name:
+      <input type="text" formControlName="name">
+    </label>
+        <label>
+      Description:
+      <input type="text" formControlName="description">
+    </label>
+        <label>
+      City:
+      <input type="text" formControlName="city">
+    </label>
+        <button type="submit">Create</button>
+    </form>
+</ion-content>

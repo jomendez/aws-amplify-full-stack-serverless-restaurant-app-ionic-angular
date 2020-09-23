@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-ionicrestaurant-dev-171503-authRole",
+      "UnauthRoleArn": "arn:aws:iam::194598383801:role/amplify-ionicrestaurant-dev-171503-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::194598383801:role/amplify-ionicrestaurant-dev-171503-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-ionicrestaurant-dev-171503-deployment",
+      "UnauthRoleName": "amplify-ionicrestaurant-dev-171503-unauthRole",
+      "StackName": "amplify-ionicrestaurant-dev-171503",
+      "StackId": "arn:aws:cloudformation:us-east-1:194598383801:stack/amplify-ionicrestaurant-dev-171503/ad8071e0-fd18-11ea-9f19-0af8d25392ed",
+      "AmplifyAppId": "d14xjcfh908mko"
+    },
+    "categories": {
+      "auth": {
+        "ionicrestauranta0bcd56e": {}
+      }
+    }
+  }
+}

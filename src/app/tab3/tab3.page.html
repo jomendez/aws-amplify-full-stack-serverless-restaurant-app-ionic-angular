@@ -1,0 +1,14 @@
+<ion-header [translucent]="true">
+    <ion-toolbar>
+        <ion-title>
+            Profile
+        </ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+    <div class="logout">
+        <div class="hello">Hello, {{user?.username}}</div>
+        <amplify-sign-out></amplify-sign-out>
+    </div>
+</ion-content>
